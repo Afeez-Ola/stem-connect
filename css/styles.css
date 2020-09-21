@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'roboto', sans-serif;
+}
+
+a,
+p {
+    font-family: 'open-sans', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+li,
+a,
+ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+    color: #CFCFCF;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+}
+
+
+/********* Top NavBar Section *******/
+
+.header {
+    /* position: fixed; */
+    background-color: #fafafa;
+    border-bottom: 1px solid #e6e6e6;
+    width: 100%;
+    /* z-index: 20; */
+    transition: transform .2s linear;
+}
+
+.top_nav_bar {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: .85em 0;
+    border-bottom: 1px solid #eee;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+}
+
+.nav_links {
+    display: flex;
+    text-align: left;
+}
+
+.nav_links li {
+    margin-right: 20px;
+}
+
+.nav_links li a {
+    color: #CFCFCF;
+}
+
+.nav_links li a:hover {
+    color: #ff7171;
+}
+
+.nav_links li.sign a {
+    color: black;
+}
+
+
+/************* Bottom NavBar Section ***********/
+
+.bottom_nav_bar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 190px;
+}
+
+.nav-directions {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4.8;
+}
+
+.nav-list li a {
+    color: #7C7C7C;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-list li a:hover {
+    color: #ff7171;
+}
+
+#intro {
+    margin: auto;
+    width: 100%;
+    background-color: #ff7171;
+    padding: 6.75rem 1.5rem 6.9rem;
+}
+
+.intro_text {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.intro_text h1 {
+    text-transform: uppercase;
+    font-size: 2.875rem;
+    color: #fff;
+}
+
+.intro_text h3 {
+    color: #fff;
+    font-size: 1.125rem;
+}
+
+
+/*********** Cards Section *********/
+
+#cards {
+    margin: 40px auto;
+    border: none;
+}
+
+.card-body {
+    border: none;
+}
+
+.card-body h5,
+.card-body p {
+    color: #666666;
+}
+
+.card-body a {
+    color: #ff7171;
+    font-size: 1.1rem;
+}
+
+.card-body a:hover {
+    color: #ff7171;
+}
+
+.card-text {
+    margin-bottom: 12px;
+    font-size: 13px;
+}

@@ -59,11 +59,9 @@ a:hover {
 /********* Top NavBar Section *******/
 
 .header {
-    /* position: fixed; */
     background-color: #fafafa;
     border-bottom: 1px solid #e6e6e6;
     width: 100%;
-    /* z-index: 20; */
     transition: transform .2s linear;
 }
 
@@ -92,6 +90,7 @@ a:hover {
 }
 
 .nav_links li a:hover {
+    text-decoration: none;
     color: #ff7171;
 }
 
@@ -141,6 +140,7 @@ a:hover {
 }
 
 .nav-list li a:hover {
+    text-decoration: none;
     color: #ff7171;
 }
 
@@ -192,6 +192,7 @@ a:hover {
 
 .card-body a:hover {
     color: #ff7171;
+    text-decoration: none;
 }
 
 .card-text {

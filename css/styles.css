@@ -291,3 +291,30 @@ a:hover {
     position: relative;
     top: 1px;
 }
+
+
+/*********** CTA Section ************/
+
+#cta {
+    margin: 30px auto;
+}
+
+.cta-box {
+    margin: auto;
+    width: 80%;
+    padding: .75rem 1.98rem .9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    /* text-align: center; */
+}
+
+.cta-box a {
+    width: 60%;
+}
+
+.cta-box button {
+    width: 100%;
+}

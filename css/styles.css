@@ -162,13 +162,18 @@ a:hover {
 
 .intro_text h1 {
     text-transform: uppercase;
-    font-size: 2.875rem;
+    font-size: 2.5rem;
     color: #fff;
+    width: 90%;
+    margin: auto;
+    text-align: center;
 }
 
 .intro_text h3 {
     color: #fff;
     font-size: 1.125rem;
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -181,6 +186,7 @@ a:hover {
 
 .card-body {
     border: none;
+    margin-bottom: 30px;
 }
 
 .card-body h5 {
@@ -212,7 +218,7 @@ a:hover {
 .marketing {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0 auto 30px;
 }
 
 .marketing-image {

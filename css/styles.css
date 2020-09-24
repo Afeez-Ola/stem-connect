@@ -119,15 +119,16 @@ a:hover {
     width: 190px;
 }
 
-.nav-directions {
+
+/* .nav-directions {
     display: flex;
-    align-items: center;
-    width: 40%;
-}
+} */
 
 .nav-list {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 30%;
 }
 
 .nav-list li {
@@ -139,8 +140,9 @@ a:hover {
 
 .nav-list li a {
     color: #7C7C7C;
-    font-size: 1.1rem;
-    font-weight: 500;
+    font-size: .875rem;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .nav-list li a:hover {

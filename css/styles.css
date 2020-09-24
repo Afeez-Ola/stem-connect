@@ -9,6 +9,7 @@ body {
     background: white;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
+    width: 100%;
 }
 
 body,
@@ -118,17 +119,13 @@ a:hover {
     width: 190px;
 }
 
-
-/* .nav-directions {
-    display: flex;
-} */
-
 .nav-list {
     display: flex;
     justify-content: center;
     width: 45%;
     height: 8vh;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .nav-list li {
@@ -143,11 +140,12 @@ a:hover {
     font-size: .875rem;
     font-weight: bold;
     letter-spacing: 3px;
+    cursor: pointer;
 }
 
 .nav-list li a:hover {
     text-decoration: none;
-    color: #ff7171;
+    /* color: #ff7171; */
 }
 
 .burger {
@@ -159,15 +157,17 @@ a:hover {
 .burger div {
     margin: 5px;
     background-color: rgba(0, 0, 0, 0.599);
-    width: 15px;
+    width: 25px;
     height: 3px;
 }
 
-@media screen and (max-width: 700px) {
+
+/* @media screen and (max-width: 700px) {
     .nav-list {
         width: 25%;
+        overflow-x: hidden;
     }
-}
+} */
 
 @media screen and (max-width: 768px) {
     body {
@@ -185,7 +185,7 @@ a:hover {
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
         justify-content: space-around;
-        z-index: 3;
+        z-index: 1;
         overflow-x: hidden;
     }
 
@@ -196,21 +196,29 @@ a:hover {
     .burger {
         display: block;
     }
+
+    .bottom_nav_bar {
+        overflow-x: hidden;
+    }
 }
 
 .nav-active {
+    overflow-x: hidden;
     transform: translateX(0);
 }
 
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
+    background-color: #ff7171;
 }
 
 .toggle .line2 {
+    background-color: #ff7171;
     opacity: 0;
 }
 
 .toggle .line3 {
+    background-color: #ff7171;
     transform: rotate(45deg) translate(-5px, -6px);
 }
 

@@ -173,11 +173,12 @@ a:hover {
     body {
         overflow-x: hidden;
     }
+
     .nav-list {
         position: absolute;
         right: 0;
-        height: 80vh;
-        top: 20vh;
+        height: 40vh;
+        top: 30vh;
         background-color: #ff7171;
         flex-direction: column;
         width: 100%;
@@ -185,10 +186,13 @@ a:hover {
         transition: transform 0.3s ease-in;
         justify-content: space-around;
         z-index: 3;
+        overflow-x: hidden;
     }
+
     .nav-list li a {
         color: rgb(228, 224, 224);
     }
+
     .burger {
         display: block;
     }
@@ -254,7 +258,7 @@ a:hover {
 
 .card-body {
     border: none;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 
 .card-body h5 {

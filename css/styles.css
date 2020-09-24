@@ -176,7 +176,7 @@ a:hover {
     .nav-list {
         position: absolute;
         right: 0;
-        height: 62vh;
+        height: 92vh;
         top: 12vh;
         background-color: #ff7171;
         flex-direction: column;

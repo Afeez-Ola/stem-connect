@@ -413,6 +413,10 @@ a:hover {
     background-color: #ff7171;
 }
 
+.cta-box a button {
+    font-size: 18px;
+}
+
 .cta-box h1 {
     margin: auto;
     text-align: center;

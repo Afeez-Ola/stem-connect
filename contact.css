@@ -125,7 +125,7 @@ a:hover {
     width: 45%;
     height: 8vh;
     align-items: center;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .nav-list li {
@@ -176,7 +176,7 @@ a:hover {
         position: absolute;
         right: 0;
         height: 40vh;
-        top: 20vh;
+        top: 30vh;
         background-color: #ff7171;
         flex-direction: column;
         width: 100%;
@@ -195,7 +195,7 @@ a:hover {
 }
 
 .nav-active {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     transform: translateX(0);
 }
 
@@ -219,208 +219,37 @@ a:hover {
     margin: auto;
 }
 
-#intro {
-    margin: auto;
-    width: 100%;
+
+/********* Contact Section ********/
+
+#contact {
+    margin: 100px auto;
+}
+
+.card {
+    border: 1px solid #ff7171;
+}
+
+.header-text {
+    background: #ff7171;
+}
+
+.submit {
     background-color: #ff7171;
-    padding: 6.75rem 1.5rem 6.9rem;
-    overflow-x: hidden;
 }
 
-.intro_text {
-    width: 90%;
-    margin: auto;
-    text-align: center;
+.text-center a input .submit {
+    background-color: #ff7171;
 }
 
-.intro_text h1 {
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    color: #fff;
-    width: 90%;
-    margin: auto;
-    text-align: center;
-}
-
-.intro_text h3 {
-    color: #fff;
-    font-size: 1.025rem;
-    width: 100%;
-    margin: auto;
-}
-
-
-/*********** Cards Section *********/
-
-#cards {
-    margin: 40px auto;
-    border: none;
-}
-
-.card-body {
-    border: none;
-    margin: 0 auto 30px;
-}
-
-.card-body h5 {
-    text-transform: uppercase;
-    color: #2d4059;
-}
-
-.card-body p {
-    color: #666666;
-}
-
-.card-body a {
-    color: #ff7171;
-    font-size: 1.1rem;
-}
-
-.card-body a:hover {
-    color: #846d6d;
+.text-center a:hover {
     text-decoration: none;
 }
 
-.card-text {
-    margin-bottom: 12px;
-    font-size: 13px;
-}
-
-
-/************ Services Section ***********/
-
-.marketing {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 30px;
-}
-
-.marketing-image {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.marketing-image svg {
-    width: 53%;
-    border-radius: 50%;
-    width: 20%;
-    fill: white;
-    padding: .75rem .8rem;
-    border: 1px solid #ff7171;
+.btn {
     background-color: #ff7171;
 }
 
-.marketing-image svg:hover {
-    fill: #ff7171;
-    background-color: white;
-    border: 1px solid #ff7171;
-}
-
-.marketing-note {
-    width: 100%;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.marketing-note p {
-    text-align: center;
-    width: 90%;
-    margin: auto;
-    line-height: 1.6;
-    font-size: 14px;
-}
-
-.marketing-note h3 {
-    text-align: center;
-    margin: 0 auto 12px;
-    color: #2d4059;
-}
-
-.marketing-btn {
-    border-radius: 28px;
-    border: 1px solid #ff7171;
-    display: inline-block;
-    cursor: pointer;
-    color: #ff7171;
-    font-family: Arial;
-    font-size: 16px;
-    padding: 1rem 3.625rem;
-    text-decoration: none;
-    background-color: white;
-    margin-top: 20px;
-}
-
-.marketing-btn:hover {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
+.button {
     background-color: #ff7171;
-}
-
-.marketing-btn:active {
-    position: relative;
-    top: 1px;
-}
-
-
-/*********** CTA Section ************/
-
-#cta {
-    margin: 30px auto;
-}
-
-.cta-box {
-    background-color: #ff7171;
-    margin: auto;
-    width: 80%;
-    padding: .75rem 1.98rem .9rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 7px -3px 5px 0px rgba(0, 0, 0, 0.48);
-}
-
-.cta-box h1,
-.cta-box a {
-    width: 70%;
-    text-align: center;
-}
-
-.cta-box button {
-    width: 100%;
-    border-radius: 28px;
-    border: 1px solid #ff7171;
-    display: inline-block;
-    cursor: pointer;
-    color: #ff7171;
-    font-family: Arial;
-    font-size: 16px;
-    padding: .7rem 2.5rem;
-    text-decoration: none;
-    background-color: white;
-    margin-top: 20px;
-}
-
-.cta-box button:hover {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    background-color: #ff7171;
-}
-
-.cta-box a button {
-    font-size: 18px;
-}
-
-.cta-box h3,
-.cta-box p {
-    margin: auto;
-    text-align: center;
-    color: white;
 }

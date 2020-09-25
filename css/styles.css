@@ -8,8 +8,7 @@
 body {
     background: white;
     -webkit-font-smoothing: antialiased;
-    /* overflow-x: hidden; */
-    /* width: 100%; */
+    overflow-x: hidden;
 }
 
 body,
@@ -107,6 +106,7 @@ a:hover {
 .bottom_nav_bar {
     display: flex;
     justify-content: space-between;
+    overflow-x: hidden;
     margin: auto;
 }
 
@@ -125,6 +125,7 @@ a:hover {
     width: 45%;
     height: 8vh;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .nav-list li {
@@ -171,7 +172,6 @@ a:hover {
     body {
         overflow-x: hidden;
     }
-
     .nav-list {
         position: absolute;
         right: 0;
@@ -186,11 +186,9 @@ a:hover {
         z-index: 1;
         overflow-x: hidden;
     }
-
     .nav-list li a {
         color: rgb(228, 224, 224);
     }
-
     .burger {
         display: block;
     }
@@ -226,6 +224,7 @@ a:hover {
     width: 100%;
     background-color: #ff7171;
     padding: 6.75rem 1.5rem 6.9rem;
+    overflow-x: hidden;
 }
 
 .intro_text {

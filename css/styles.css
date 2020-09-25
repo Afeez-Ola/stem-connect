@@ -75,7 +75,8 @@ a:hover {
     border-bottom: 1px solid #eee;
     justify-content: flex-end;
     align-items: center;
-    background-color: white;
+    /* background-color: white; */
+    background-color:black;
 }
 
 .nav_links {

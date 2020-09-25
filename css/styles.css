@@ -257,6 +257,10 @@ a:hover {
     border: none;
 }
 
+.card {
+    margin: 30px auto;
+}
+
 .card-body {
     border: none;
     margin: 0 auto 30px;

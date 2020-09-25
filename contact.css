@@ -125,7 +125,7 @@ a:hover {
     width: 45%;
     height: 8vh;
     align-items: center;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .nav-list li {
@@ -176,7 +176,7 @@ a:hover {
         position: absolute;
         right: 0;
         height: 40vh;
-        top: 30vh;
+        top: 20vh;
         background-color: #ff7171;
         flex-direction: column;
         width: 100%;
@@ -195,7 +195,7 @@ a:hover {
 }
 
 .nav-active {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     transform: translateX(0);
 }
 
@@ -234,22 +234,36 @@ a:hover {
     background: #ff7171;
 }
 
+.header-text h3 {
+    color: white;
+}
+
 .submit {
     background-color: #ff7171;
 }
 
 .text-center a input .submit {
-    background-color: #ff7171;
+    color: white;
+}
+
+.text-center a {
+    color: white;
 }
 
 .text-center a:hover {
+    color: white;
     text-decoration: none;
 }
 
-.btn {
+.button {
+    color: white;
     background-color: #ff7171;
 }
 
-.button {
-    background-color: #ff7171;
+a {
+    color: white;
+}
+
+.button a {
+    color: white;
 }

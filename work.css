@@ -243,6 +243,18 @@ a:hover {
     margin: auto;
 }
 
+.robotics_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.robotics_image img {
+    width: 100%;
+    /* margin: auto; */
+}
+
 .robotics_image,
 .robotics_image img {
     margin: auto;

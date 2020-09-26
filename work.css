@@ -231,9 +231,16 @@ a:hover {
     margin: 30px auto 50px;
 }
 
-.robotics_note h3 {
+@media screen and (max-width: 768px) {
+    .robotics {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.container h3 {
     text-align: center;
-    margin: 12px auto;
+    margin: 30px auto 12;
 }
 
 .rob-img {

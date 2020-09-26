@@ -81,6 +81,7 @@ a:hover {
 .nav_links {
     display: flex;
     text-align: left;
+    overflow-x: hidden;
 }
 
 .nav_links li {
@@ -125,7 +126,6 @@ a:hover {
     width: 45%;
     height: 8vh;
     align-items: center;
-    /* overflow-x: hidden; */
 }
 
 .nav-list li {
@@ -160,14 +160,6 @@ a:hover {
     height: 3px;
 }
 
-
-/* @media screen and (max-width: 700px) {
-    .nav-list {
-        width: 25%;
-        overflow-x: hidden;
-    }
-} */
-
 @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
@@ -185,6 +177,7 @@ a:hover {
         justify-content: space-around;
         z-index: 1;
         overflow-x: hidden;
+        display: none;
     }
     .nav-list li a {
         color: rgb(228, 224, 224);
@@ -195,8 +188,9 @@ a:hover {
 }
 
 .nav-active {
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     transform: translateX(0);
+    display: block;
 }
 
 .toggle .line1 {

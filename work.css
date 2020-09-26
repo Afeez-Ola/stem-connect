@@ -236,6 +236,10 @@ a:hover {
         display: flex;
         flex-direction: column-reverse;
     }
+    .programming {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .container h3 {
@@ -264,5 +268,11 @@ a:hover {
 
 .robotics_image,
 .robotics_image img {
-    margin: auto;
+    margin: 0 auto 20px;
+}
+
+.prog-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

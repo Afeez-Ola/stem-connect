@@ -394,8 +394,24 @@ a:hover {
 }
 
 .vrt-note {
-    width: 80%;
+    width: 90%;
     margin: auto;
+}
+
+.vrt-note h3 {
+    text-transform: uppercase;
+}
+
+.vrt-note ul li {
+    color: #846d6d;
+    list-style: circle;
+    width: 70%;
+    margin: 0 0 12px;
+}
+
+.vrt-note a {
+    color: #ff7171;
+    font-size: 1.1rem;
 }
 
 

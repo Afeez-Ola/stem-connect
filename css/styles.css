@@ -189,6 +189,12 @@ a:hover {
     .burger {
         display: block;
     }
+    .vrt-note ul li {
+        color: #846d6d;
+        list-style: circle;
+        width: 100%;
+        margin: 0 auto 12px;
+    }
 }
 
 .nav-active {
@@ -391,6 +397,7 @@ a:hover {
 
 .vrt-img img {
     width: 90%;
+    height: 100%;
 }
 
 .vrt-note {

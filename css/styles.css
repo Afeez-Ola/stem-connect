@@ -61,14 +61,18 @@ a:hover {
 /********* Top NavBar Section *******/
 
 .header {
-    background-color: #fafafa;
+    background-color: #fff;
     border-bottom: 1px solid #e6e6e6;
     width: 100%;
     transition: transform .2s linear;
     position: sticky;
     top: 0;
     z-index: 100;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+
 
 .top_nav_bar {
     display: flex;
@@ -112,6 +116,8 @@ a:hover {
     justify-content: space-between;
     overflow-x: hidden;
     margin: auto;
+    background-color: #fff;
+    width: 100%;
 }
 
 .logo {
@@ -168,11 +174,12 @@ a:hover {
     body {
         overflow-x: hidden;
     }
+
     .nav-list {
         position: absolute;
         right: 0;
-        height: 80vh;
-        top: 20vh;
+        height: 100vh;
+        top: 22.5vh;
         background-color: #ff7171;
         flex-direction: column;
         width: 100%;
@@ -183,9 +190,20 @@ a:hover {
         overflow-x: hidden;
         display: none;
     }
+
+    .nav-list li{
+        width:100%;
+    }
+   
     .nav-list li a {
         color: rgb(228, 224, 224);
     }
+    
+    .nav-list li a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+
     .burger {
         display: block;
     }
@@ -419,6 +437,7 @@ a:hover {
     .vrt-note ul {
         width: 100%;
     }
+
     .vrt-note ul li {
         color: #846d6d;
         list-style: circle;

@@ -370,6 +370,35 @@ a:hover {
 }
 
 
+/********** VRT section ************/
+
+#robotics {
+    margin: 30px auto;
+}
+
+#robotics h1 {
+    margin: 12px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.vrt-img {
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vrt-img img {
+    width: 90%;
+}
+
+.vrt-note {
+    width: 77%;
+    margin: auto;
+}
+
+
 /*********** CTA Section ************/
 
 #cta {

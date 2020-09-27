@@ -171,8 +171,8 @@ a:hover {
     .nav-list {
         position: absolute;
         right: 0;
-        height: 40vh;
-        top: 20vh;
+        height: 70vh;
+        top: 30vh;
         background-color: #ff7171;
         flex-direction: column;
         width: 100%;
@@ -218,50 +218,65 @@ a:hover {
 }
 
 
-/********* Contact Section ********/
+/********** Robotics Section ***********/
 
-#contact {
-    margin: 100px auto;
+#work {
+    margin: 40px auto;
+    overflow-x: hidden;
 }
 
-.card {
-    border: 1px solid #ff7171;
+.container h2 {
+    margin: 20px auto;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.header-text {
-    background: #ff7171;
+.robotics {
+    margin: 30px auto 50px;
 }
 
-.header-text h3 {
-    color: white;
+@media screen and (max-width: 768px) {
+    .robotics {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .programming {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.submit {
-    background-color: #ff7171;
+.container h3 {
+    text-align: center;
+    margin: 30px auto 12;
 }
 
-.text-center a input .submit {
-    color: white;
+.rob-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
-.text-center a {
-    color: white;
+.robotics_image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.text-center a:hover {
-    color: white;
-    text-decoration: none;
+.robotics_image img {
+    width: 100%;
+    /* margin: auto; */
 }
 
-.button {
-    color: white;
-    background-color: #ff7171;
+.robotics_image,
+.robotics_image img {
+    margin: 0 auto 20px;
 }
 
-a {
-    color: white;
-}
-
-.button a {
-    color: white;
+.prog-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -291,11 +291,12 @@ a:hover {
 
 .card {
     margin: 30px auto;
+    width: 16rem;
 }
 
 @media screen and (max-width: 768px) {
     .card {
-        width: 18rem;
+        width: 20rem;
     }
 }
 

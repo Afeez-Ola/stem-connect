@@ -72,8 +72,6 @@ a:hover {
     padding-right: 10px;
 }
 
-
-
 .top_nav_bar {
     display: flex;
     max-width: 1200px;
@@ -196,7 +194,6 @@ a:hover {
     body {
         overflow-x: hidden;
     }
-
     .nav-list {
         position: absolute;
         right: 0;
@@ -212,20 +209,16 @@ a:hover {
         overflow-x: hidden;
         display: none;
     }
-
-    .nav-list li{
-        width:100%;
+    .nav-list li {
+        width: 100%;
     }
-   
     .nav-list li a {
         color: rgb(228, 224, 224);
     }
-    
     .nav-list li a:hover {
         text-decoration: none;
         color: #fff;
     }
-
     .burger {
         display: block;
     }
@@ -298,6 +291,12 @@ a:hover {
 
 .card {
     margin: 30px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 18rem;
+    }
 }
 
 .card-body {
@@ -459,7 +458,6 @@ a:hover {
     .vrt-note ul {
         width: 100%;
     }
-
     .vrt-note ul li {
         color: #846d6d;
         list-style: circle;

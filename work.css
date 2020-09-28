@@ -307,6 +307,6 @@ a:hover {
 
 .prog-note {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }

@@ -67,8 +67,15 @@
 
                 </div>
                 <ul class="nav-list">
-                    <li>
-                        <a href="/work.html">Work</a>
+                    <li class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                            Work
+                            <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="">Gallery</a>
@@ -105,8 +112,8 @@
     <section id="cards">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="card" style="width: 20rem;">
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <div class="card" style="width: 16rem;">
                         <img src="/image/alex-bots.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Robotics and Hardware</h5>
@@ -116,8 +123,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="card" style="width: 20rem;">
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <div class="card" style="width: 16rem;">
                         <img src="/image/alex-programming.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Beginner's Programming</h5>
@@ -127,13 +134,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-xs-12">
-                    <div class="card" style="width: 20rem;">
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <div class="card" style="width: 16rem;">
                         <img src="/image/alex-training.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CAD and 3d printing</h5>
                             <p class="card-text">Both private and group beginner's classes in Computer Aided Design (CAD) and 3d printing are available for students ages 8+
                             </p>
+                            <a href="/work.html" rel="noopener noreferrer">Read More >></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-xs-12">
+                    <div class="card" style="width: 16rem;">
+                        <img src="/image/VRT info.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SIMULATE LEGO® MINDSTORMS® ROBOTS</h5>
+                            <p class="card-text">Easily build, program, and simulate your very own virtual robot
+                            </p>
+                            <p class="card-text">Bring your LDraw™ creations to life! The Virtual Robotics Toolkit has the ability to import files that are created using a number of free 3D modeling tools.
+                            </p>
+
                             <a href="/work.html" rel="noopener noreferrer">Read More >></a>
                         </div>
                     </div>
@@ -201,7 +222,7 @@
     </section>
     </section>
 
-    <section id="robotics">
+    <!-- <section id="robotics">
         <div class="container">
             <h1>SIMULATE LEGO® MINDSTORMS® ROBOTS</h1>
             <div class="row">
@@ -221,9 +242,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- <section id="cta">
+    <section id="cta">
         <div class="container">
             <div class="cta-box">
                 <p>We work hard for our Schools and Non-Profits to help them develop new and innovative programs, and to reach out to the business community.</p>
@@ -233,7 +254,7 @@
                     </button></a>
             </div>
         </div>
-    </section> -->
+    </section>
 
 
     <script src="/script.js"></script>

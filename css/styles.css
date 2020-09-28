@@ -144,12 +144,34 @@ a:hover {
     font-weight: bold;
     letter-spacing: 3px;
     cursor: pointer;
+    -webkit-transition: color 0.2s linear, background 0.2s linear;
+    -moz-transition: color 0.2s linear, background 0.2s linear;
+    -o-transition: color 0.2s linear, background 0.2s linear;
+    transition: color 0.2s linear, background 0.2s linear;
 }
 
 .nav-list li a:hover {
     text-decoration: none;
-    color: #ff7171;
+    color: black;
 }
+
+
+/* .nav-list li ul li {
+    visibility: hidden;
+    display: flex;
+    opacity: 0;
+    position: absolute;
+    z-index: 99999;
+    -webkit-transition: opacity 0.2s linear, visibility 0.2s linear;
+    -moz-transition: opacity 0.2s linear, visibility 0.2s linear;
+    -o-transition: opacity 0.2s linear, visibility 0.2s linear;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+}
+
+.nav-list li:hover ul li {
+    visibility: visible;
+    opacity: 1;
+} */
 
 .burger {
     display: none;
